@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 50px auto;
+    width: 800px;
+    background-color: gainsboro;
+  }
+  
+  .container {
+    border: 1px solid grey;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 25px 25px 10px rgba(0, 0, 0, 0.2)
+  }
+  
+  header {
+    font-family: 'Patrick Hand', cursive;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    border-bottom: 1px solid rgb(56, 154, 161);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: lighter;
+  }
+  
+  form { 
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    margin-bottom: 10px;
+   
+  }
+  
+  label {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="number"],
+  select {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  #unit-to{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  
+  .result {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the Enter button */
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    background-color: lightcyan;
+    color: black;
+  }
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
